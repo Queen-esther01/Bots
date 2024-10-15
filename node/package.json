@@ -1,0 +1,20 @@
+{
+  "name": "testbot",
+  "version": "1.0.0",
+  "description": "A telegram bot built in Nodejs",
+  "main": "./index.ts",
+  "scripts": {
+    "dev": "nodemon ./index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "grammy": "^1.30.0",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "nodemon": "^3.1.7"
+  }
+}
